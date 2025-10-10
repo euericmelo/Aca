@@ -1,0 +1,62 @@
+.display { /* Definindo margem para a seção DISPLAY */
+    margin: 2em;
+}
+
+.card_blog { /* Definições para o card de uma postagem do blog */
+    width: 20em;
+    padding: 1em;
+    margin: 2em;
+    background-color: #123456;
+    border-radius: 50px 20px;
+}
+
+.card_blog img { /* Definições para a imagem dentro do card */
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border-radius: 50px 20px 20px 20px;
+}
+
+.card_blog p { /* Definições para o parágrafo dentro do card */
+    color: #c9c9c9;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.flex_cards { /* Definições para a DIV que mostra os CARDS */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categorias_blog { /* Definições para a NAV com as categorias do blog */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.categorias_blog a { /* Definições para os links dentro do NAV de categorias */
+    font-size: 1.2em;
+    color: #0ddaff;
+    padding: 1em;
+    border-radius: 20px;
+    border-bottom: 5px solid #0ddaff;
+    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out; /* Definindo que o box-shadow terá transição ease-in-out que durará 0.2 segundos */
+}
+
+/* Abaixo fica definido que, ao passar com o mouse em cima dos links das categorias dentro do NAV, eles mudam sua cor e recebem um box-shadow */
+.categorias_blog a:hover {
+    box-shadow: 0 0 10px #0ddaff;
+    color: #ffffff;
+}
+
+.title_link { /* Definições para os links que também servem de título das seções */
+    font-size: 1.5em;
+    transition: color 0.2s ease-in-out;
+}
+
+.title_link:hover { /* Altera cor dos links das categorias ao passar com o mouse em cima */
+    color: #58c7ff;
+}

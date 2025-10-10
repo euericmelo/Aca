@@ -1,0 +1,86 @@
+/* OBSERVAÇÃO: Esse arquivo deve conter os estilos CSS que serão comuns à todas as páginas, estilos mais específicos serão desenvolvidos em outros arquivos. */
+
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Questrial&display=swap');
+
+/* Removendo todas as margens e definindo um estilo de fonte sans-serif */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+/* Definição geral da fonte Questrial para todas as páginas */
+main p, main li {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+html { /* Deixando a rolagem da página com animação suave ao clicar em um link do sumário */
+    scroll-behavior: smooth;
+}
+
+main { /* Definições para o MAIN */
+    padding: 1em 0 1em 0;
+    background-color: #0A1A2F;
+}
+
+h1 { /* Definição para o título principal */
+    padding: 0 1em;
+}
+
+header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo e padding que servirá somente para o HEADER */
+    background-color: #123456;
+    padding:8px;
+}
+
+footer { /* Definições exclusivas para o FOOTER */
+    text-align: center;
+}
+
+footer section { /* Definições exclusivas para as SECTION que estão no rodapé */
+    margin: 20px;
+}
+
+footer p { /* Definições exclusivas para os PARÁGRAFOS que estão no rodapé */
+    margin: 10px;
+}
+
+a { /* Removendo decoração de texto de todos os links*/
+    text-decoration: none;
+}
+
+.nav_links { /* Definições para os links de navegação */
+    color: #0ddaff;
+    font-size: 0.7em;
+    margin: 8px;
+    transition: color 0.2s ease-in-out;
+padding-bottom:10px;
+}
+
+.nav_links:hover { /* Altera a cor dos links da navbar ao passar com o mouse */
+    color: #ffffff;
+}
+
+.logo_link { /* Configurando o logotipo que fica na barra de navegação */
+    width: 64px;
+}
+
+.socials_logo { /* Configurando os logotipos de redes sociais do rodapé para */
+    width: 2em;
+    margin: 5px 0;
+}
+
+.destaque { /* Cor destacada para palavra dentro de um span */
+    color: #0ddaff;
+}
+
+hr { /* Alterando cor da linha que divide as seções */
+    border: 1px solid #123456;
+}

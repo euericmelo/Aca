@@ -1,0 +1,64 @@
+/* Definições para o main e itens H1 dessa página */
+main, h1 {
+    padding: 0;
+}
+
+/* Definições para as seções que estão dentro do main em geral */
+main section {
+    padding: 5em 1em;
+}
+
+/* Definições para a div que contém os textos e botões do container_secao */
+.conteudo_secao {
+    padding: 2em 2em 0 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+/* Definições para o item de link dentro da conteudo_secao que servirá como um botão */
+.botao_link {
+    color: #0ddaff;
+    font-size: 1.2em;
+    background-color: #0A1A2F;
+    box-shadow: 0 0 3px #0ddaff;
+    width: fit-content;
+    text-align: center;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+/* Comportamento do link que serve de botão ao passar do mouse */
+.botao_link:hover {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Definições para a seção BEM-VINDO */
+.bem-vindo, .blog {
+    background-image: url(https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg);
+    background-color: #0c0c0c;
+    background-position: center;
+    background-size: cover;
+    /* Misturando a imagem de fundo com a cor de fundo para criar um efeito de escurecimento na imagem */
+    background-blend-mode: overlay;
+}
+
+/* A seção BLOG tem as mesmas definições que a seção BEM-VINDO, mas o background é diferente */
+.blog {
+    background-image: url(https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg);
+}
+
+.cursos .conteudo_secao h1 {
+    align-self: center;
+}
+
+.cursos .conteudo_secao .botao_link {
+    align-self: flex-end;
+}
+
+/* Definições para os itens span dentro das seções BEM-VINDO e BLOG */
+.bem-vindo span, .blog span {
+    font-family: "Questrial", sans-serif;
+}

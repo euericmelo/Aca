@@ -1,0 +1,63 @@
+main {
+    padding: 0;
+}
+
+/* Definições para cada section */
+main section {
+    padding: 2em 0;
+}
+
+/* Definições para as divs que abrigam o conteúdo de texto das section */
+div{
+    padding: 2em 2em 1em 2em;
+}
+
+/* Definições para os parágrafos dentro das divs */
+div p {
+    margin: 5px 0;
+}
+
+/* Definições para os itens li dentro das divs */
+div li {
+    margin-left: 1em;
+}
+
+/* Classe span para destacar os contatos */
+.contato_info {
+    color: #0ddaff;
+    cursor: pointer;
+}
+
+/* Comportamento ao passar o mouse em cima do link de um contato */
+li .contato_info:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Definições para o elemento span da página */
+span {
+    font-family: "Questrial", sans-serif;
+}
+
+/* Definindo o link de chamada para os cursos */
+.link_cursos{
+    display: inline-block;
+    background-color: #0A1A2F;
+    box-shadow: 0 0 3px #0ddaff;
+    color: #0ddaff;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Comportamento do link de chamada para os cursos ao passar o mouse */
+.link_cursos:hover {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+i {
+    color: #0ddaff;
+}

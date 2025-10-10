@@ -1,0 +1,47 @@
+h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
+    text-align: center;
+}
+
+.margem_para_textos { /* Utilizando essa classe para definir uma pequena margem para os elementos H3 e P de cada card */
+    margin: 5px;
+}
+
+.categorias, .card_curso { /* Definição de margem de 25px para os links que são os cards de curso e para as áreas divididas por categoria*/
+    margin: 25px;
+}
+
+.cursos_display { /* Definições para as sessões com classe "cursos_display". Aqui é criada uma FlexBox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_curso { /* Definições para os cards que exibem cada curso */
+    box-shadow: 0 0 5px #0ddaff;
+    border-radius: 50px 20px;
+    padding: 1em;
+    max-width: 20em;
+    transition: box-shadow 0.2s ease-in-out; /* Definindo que a transição do box-shadow terá efeito ease-in-out e durará 0.2 segundos */
+    max-height: fit-content; /* Utilizando esse atributo para garantir que só o card com hover vai exibir a .card_info */
+}
+
+.card_info { /* Seção de cada card que vai conter uma breve descrição do curso */
+    max-height: 0;
+    overflow: hidden;
+    margin: 0.3em;
+    transition: max-height 1s ease-in-out;
+}
+
+.card_curso:hover .card_info { /* Exibir a seção .card_info e fazer crescer o .card_curso com hover do mouse */
+    max-height: 300px;
+}
+
+/* Amplia o box-shadow quando o usuário passa com o mouse em cima */
+.card_curso:hover {
+    box-shadow: 0 0 20px #0ddaff;
+}
+
+.capa_curso { /* Definições para a imagem de capa de cada curso */
+    max-width: 100%;
+    border-radius: 50px 20px 20px 20px;
+}

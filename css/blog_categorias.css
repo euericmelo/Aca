@@ -1,0 +1,37 @@
+.display { /* Margem da seção display */
+    margin: 2em;
+}
+
+.card { /* Configurando o card como um flexbox */
+    margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em; /* Outra forma de separar os elementos do flex sem precisar de margem */
+}
+
+.cover_container { /* Definição de width para o elemento A que contém a capa da postagem */
+    width: 25em;
+}
+
+.cover_container img { /* Definição para a imagem da capa em si */
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.card_info { /* Definição para a seção do CARD que contém as informações da postagem */
+    width: 50em;
+}
+
+.card_info p { /* Configurando os itens parágrafos do card */
+    margin: 1em 0;
+}
+
+.data_post { /* Configurando a cor do elemento que mostrará a data da postagem */
+    color: rgb(211, 211, 211);
+}
+
+/* Comportando do título principal durante hover */
+h1 a:hover {
+    color: #58c7ff;
+    transition: color 0.2s ease-in-out;
+}

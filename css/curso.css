@@ -1,0 +1,102 @@
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Definições de margem, borda e padding para as seções de classe info_inicial, sumario e modulos */
+.info_inicial, .sumario, .modulos {
+    padding: 2em;
+}
+
+/* Margem inferior para o parágrafo na seção de introdução do curso */
+.info_inicial p {
+    margin-bottom: 10px;
+}
+
+/* Definições para que o texto dentro da tag Summary que identifica cada módulo se assemelhe a um h2 */
+.titulo_modulo {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Definindo tipo para lista não-ordenada */
+ul {
+    list-style-type: disc;
+}
+
+li { /* Margem esquerda para os List Item principais */
+    margin-left: 1em;
+}
+
+ol ul { /* Margem esquerda específica para a lista não-ordenada que está dentro da lista ordenada */
+    margin-left: 1em;
+}
+
+/* Container com vídeo-aulas */
+.aula_container {
+    /* Abaixo, em WIDTH, fica definido que a WIDTH do vídeo sempre será o que representar o menor valor entre 50em ou 100% de width */
+    width: min(50em, 100%);
+    margin: 1em 0;
+    background-color: #0f2541;
+    border-radius: 10px;
+}
+
+/* Definições para a tag de vídeo */
+video {
+    max-width: 100%;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+
+.aula_container_header { /* Definições para o header do container que exibe as aulas */
+    background-color: #123456;
+    border-radius: 10px 10px 0 0;
+    padding: 1em;
+}
+
+.aula_container_footer { /* Definições para o footer do container que exibe as aulas */
+    background-color: #123456;
+    border-radius: 0 0 10px 10px;
+    padding: 1em;
+}
+
+/* Definições para os links que levam para as seções de módulos e para os links de download de materiais */
+.sumario a, .modulos a {
+    color: #0ddaff;
+}
+
+/* Comportamento dos links de módulo e do link de download de material complementar ao passar o mouse */
+.sumario a:hover, .modulos a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Definições para os links de materiais e parágrafos que resumem o tópico do módulo */
+.sinopse_modulo, .aula_container {
+    margin: 1em 0;
+}
+
+/* Definição específica da fonte Questrial para esta página */
+.modulos h4, .modulos a {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+/* Alterando o tamanho da fonte dos l*/
+.modulos a {
+    font-size: 1em;
+}
+
+.em_breve { /* Seção com a imagem que indica que um curso novo está chegando */
+    /* Abaixo, em WIDTH, fica definido que a WIDTH do vídeo sempre será o que representar o menor valor entre 50em ou 100% de width */
+    width: min(50em, 90%);
+    margin-top: 25px;
+    justify-self: center;
+}
+
+.placeholder_em_breve { /* Imagem que indica um curso novo */
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0ddaff;
+}

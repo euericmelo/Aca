@@ -1,0 +1,113 @@
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
+.display {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em 10em;
+}
+
+/* Definições para a imagem que fica ao lado do formulário de login na página de login */
+.display img {
+    width: min(25em, 100%);
+    border-radius: 50px 20px;
+    box-shadow: 0 0 5px #0ddaff;
+}
+
+/* Definindo o formulário como um flexbox que dispõe os itens verticalmente */
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3em;
+    background-color: #123456;
+    box-shadow: 0 0 5px #0ddaff;
+    border-radius: 50px 20px;
+    width: min(25em, 100%);
+    height: fit-content;
+}
+
+/* Definindo para os labels dos campos de texto do formulário um tamanho de 1.2em */
+.label_big {
+    font-size: 1.2em;
+}
+
+/* Definições para os containers que contém os inputs */
+.container_input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.8em;
+}
+
+/* Definições para os inputs de texto que estão dentro das divs CONTAINER_INPUT */
+.container_input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #333;
+    padding: 1.2em;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.1em;
+}
+
+/* Definições para o ícone de olho no input de senha */
+.container_input i {
+    color: #0A1A2F;
+    position: absolute;
+    font-size: 1.5em;
+    right: 5%;
+    top: 55%;
+    cursor: pointer;
+}
+
+/* Definindo o container que contém um checkbox 'Lembre de mim' e um link 'Esqueci minha senha' como um flexbox */
+.container_checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+/* Definições para os itens do container_checkbox */
+.container_checkbox label, .container_checkbox input, .container_checkbox a {
+    cursor: pointer;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.1em;
+}
+
+/* Botão de entrar/cadastrar */
+#submit {
+    background-color: #0A1A2F;
+    color: #0ddaff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+/* Comportamento do botão de entrar/cadastrar ao passar do mouse */
+#submit:hover {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Definição para links como 'Esqueci minha senha', 'Cadastre-se', 'Termo de uso', 'Política de privacidade' */
+.links_form {
+    color: #0ddaff;
+    font-family: "Questrial", sans-serif;
+    font-size: 1em;
+}
+
+/* Comportamento dos links ao passar do mouse */
+.links_form:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
