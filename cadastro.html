@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/formularios.css">
+    <!-- Importando ícones do boxicons -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <title>Academia do Código Aberto</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho da página com uma barra de navegação -->
+        <nav>
+            <a class="nav_links" href="index.html">
+                <img class="logo_link" src="imagens/logotipo.png" alt="Logotipo (Academia do Código Aberto)">
+            </a>
+            <a class="nav_links" href="index.html">Início</a>
+                <a class="nav_links" href="cursos.html">Cursos</a>
+                <a class="nav_links" href="blog.html">Blog</a>
+                <a class="nav_links" href="login.html">Entrar</a>
+                <a class="nav_links" href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main> <!-- Conteúdo principal -->
+        <h1>Cadastre-se</h1>
+
+        <section class="display">
+            <form action="" method="post">
+                <div class="container_input">
+                    <label for="nome" class="label_big">Primeiro nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                <div class="container_input">
+                    <label for="sobrenome" class="label_big">Sobrenome</label>
+                    <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                <div class="container_input">
+                    <label for="username" class="label_big">Nome de usuário</label>
+                    <input type="text" id="username" placeholder="Crie seu nome de usuário" required>
+                </div>
+
+                <div class="container_input">
+                    <label for="email" class="label_big">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                </div>
+
+                <div class="container_input">
+                    <label for="senha" class="label_big">Senha</label>
+                    <input type="password" id="senha" placeholder="Crie sua senha" required>
+                    <i class="bx bxs-lock"></i> <!-- Ícone de olho -->
+                </div>
+
+                <div class="container_checkbox">
+                    <label>
+                        <input type="checkbox" required>
+                        Li e concordo com os <a href="#" class="links_form">Termos de Uso</a> e com a <a href="#" class="links_form">Política de privacidade do cliente.</a>
+                    </label>
+                </div>
+
+                <input id="submit" type="submit" value="Cadastrar">
+
+                <p><a href="login.html" class="links_form">Já tenho uma conta</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer> <!-- Rodapé -->
+        <section> <!-- Seção do rodapé com o mapa do site -->
+            <p>Mapa do site</p>
+            <nav> <!-- Barra de navegação -->
+                <a class="nav_links" href="index.html">Início</a>
+                <a class="nav_links" href="cursos.html">Cursos</a>
+                <a class="nav_links" href="blog.html">Blog</a>
+                <a class="nav_links" href="login.html">Entrar</a>
+                <a class="nav_links" href="sobre.html">Sobre</a>
+            </nav>
+        </section>
+
+        <section> <!-- Seção do rodapé com redes de contato -->
+            <p>Nossas redes</p>
+            <nav>
+                <a class="nav_links" href="">
+                    <img class="socials_logo" src="imagens/instagram-logo.png" alt="Logotipo (Instagram)">
+                </a>
+                <a class="nav_links" href="">
+                    <img class="socials_logo" src="imagens/facebook-logo.png" alt="Logotipo (Facebook)">
+                </a>
+                <a class="nav_links" href="">
+                    <img class="socials_logo" src="imagens/twitter-logo.png" alt="Logotipo (Twitter)">
+                </a>
+                <a class="nav_links" href="">
+                    <img class="socials_logo" src="imagens/youtube-logo.png" alt="Logotipo (Youtube)">
+                </a>
+                <a class="nav_links" href="">
+                    <img class="socials_logo" src="imagens/discord-logo.png" alt="Logotipo (Discord)">
+                </a>
+            </nav>
+        </section>
+
+        <p>&copy Academia do Código Aberto, 2025. Todos os direitos reservados.</p>
+        <p>Desenvolvido por 4DEVS</p>
+    </footer>
+</body>
+</html>
