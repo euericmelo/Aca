@@ -7,8 +7,7 @@
 [![Site ao vivo](https://img.shields.io/badge/Site%20ao%20vivo-💻-orange?style=for-the-badge)](https://euericmelo.github.io/Aca/)
 [![Repositório](https://img.shields.io/badge/GitHub-Aca-black?style=for-the-badge&logo=github)](https://github.com/euericmelo/Aca)
 
-Projeto desenvolvido em equipe como parte do curso de **Desenvolvimento Web**, por quatro participantes dedicados:  
-👥 [Eric Martins](https://github.com/euericmelo), [Gabriel Sousa](https://github.com/euericmelo), [Andrey Max](https://github.com/euericmelo) e [Cauã Rodrigues](https://github.com/euericmelo).
+Projeto desenvolvido em equipe como parte do curso de **Desenvolvimento Web** no **Instituto da Oportunidade Social (IOS)**.  
 
 O projeto consistiu na criação de um **site para divulgação de cursos gratuitos de programação**, com foco em **acessibilidade, organização e aprendizado autônomo**.  
 O resultado foi uma **plataforma simples, responsiva e ideal para iniciantes**, servindo como um **portal de aprendizado acessível e prático**.
@@ -64,10 +63,10 @@ Este projeto mostra como **HTML e CSS** podem ser usados para criar uma **plataf
 
 ## 👥 Participantes do Projeto
 
-| [![Eric Martins](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Gabriel Sousa](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Andrey Max](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Cauã Rodrigues](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) |
+| [![Eric Martins](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Gabriel Sousa](https://github.com/srochagabriel.png?size=100)](https://github.com/srochagabriel) | [![Andrey Max](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Cauã Rodrigues](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) |
 |:--:|:--:|:--:|:--:|
-| **[Eric Martins](https://github.com/euericmelo)** | **[Gabriel Sousa](https://github.com/euericmelo)** | **[Andrey Max](https://github.com/euericmelo)** | **[Cauã Rodrigues](https://github.com/euericmelo)** |
+| **[Eric Martins](https://github.com/euericmelo)** | **[Gabriel Sousa](https://github.com/srochagabriel)** | **[Andrey Max](https://github.com/euericmelo)** | **[Cauã Rodrigues](https://github.com/euericmelo)** |
 
 ---
 
-✨ *Desenvolvido com dedicação e foco em aprendizado colaborativo.*  
+✨ *Desenvolvido com dedicação e foco em aprendizado colaborativo no Instituto da Oportunidade Social (IOS).*  
