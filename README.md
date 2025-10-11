@@ -63,7 +63,7 @@ Este projeto mostra como **HTML e CSS** podem ser usados para criar uma **plataf
 
 ## 👥 Participantes do Projeto
 
-| [![Eric Martins](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Gabriel Sousa](https://github.com/srochagabriel.png?size=100)](https://github.com/srochagabriel) | [![Andrey Max](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Cauã Rodrigues](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) |
+| [![Eric Martins](https://github.com/euericmelo.png?size=100)](https://github.com/euericmelo) | [![Gabriel Sousa](.size=100)](https://github.com/srochagabriel) | [![Andrey Max](.size=100)](https://github.com/euericmelo) | [![Cauã Rodrigues](.size=100)](https://github.com/euericmelo) |
 |:--:|:--:|:--:|:--:|
 | **[Eric Martins](https://github.com/euericmelo)** | **[Gabriel Sousa](https://github.com/srochagabriel)** | **[Andrey Max](https://github.com/euericmelo)** | **[Cauã Rodrigues](https://github.com/euericmelo)** |
 
